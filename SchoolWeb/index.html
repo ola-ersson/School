@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B^Kidz School</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;600;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fe9a945f84.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="Index.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header id="header">
+            <!-- Colored Bars -->
+            <div class="d-flex flex-row">
+                <div class="col bg-warning bar-height"></div>
+                <div class="col bg-success bar-height"></div>
+                <div class="col bg-danger bar-height"></div>
+                <div class="col bg-info bar-height"></div>
+                <div class="col bg-primary bar-height"></div>
+                <div class="col bg-cozy bar-height"></div>
+                <div class="col bg-warning bar-height d-none d-md-block"></div>
+                <div class="col bg-success bar-height d-none d-md-block"></div>
+                <div class="col bg-danger bar-height d-none d-md-block"></div>
+                <div class="col bg-info bar-height d-none d-md-block"></div>
+                <div class="col bg-primary bar-height d-none d-md-block"></div>
+                <div class="col bg-cozy bar-height d-none d-md-block"></div>
+            </div>
+            <!-- Navigation -->
+            <nav class="d-flex d-row justify-content-between align-items-center p-3 mx-auto">
+                <!-- Nav Logo -->
+                <img src="/SchoolWeb/images/logo-school.png" alt="logo-school">
+                <!-- Nav Buttons Center -->
+                <div class="d-none d-md-flex ">
+                        <a href="#" class="d-flex flex-column text-decoration-none align-items-center" >
+                            <i class="d-flex fa fa-home text-white shadow bg-info rounded-circle nav-icon align-items-center justify-content-center"></i>
+                            <span class="text-info">Home </span>
+                        </a>            
+                        <a href="#" class="d-flex flex-column text-decoration-none align-items-center ml-5" >
+                            <i class="d-flex fa fa-store text-white shadow bg-cozy rounded-circle nav-icon align-items-center justify-content-center"></i>
+                            <span class="text-cozy">Store </span>
+                        </a>            
+                        <a href="#" class="d-flex flex-column text-decoration-none align-items-center ml-5" >
+                            <i class="d-flex fa fa-user-graduate text-white shadow bg-success rounded-circle nav-icon align-items-center justify-content-center"></i>
+                            <span class="text-success">Courses</span>
+                        </a>            
+                        <a href="#" class="d-flex flex-column text-decoration-none align-items-center ml-5" >
+                            <i class="d-flex fa fa-blog text-white shadow bg-warning rounded-circle nav-icon align-items-center justify-content-center"></i>
+                            <span class="text-warning">Home </span>
+                        </a>            
+                </div>
+                <!-- Nav Buttons Right -->
+                <div>
+                    <button class="btn btn-cozy shadow py-2 mr-2 position-relative">
+                        <i class="fas fa-shopping-basket text-white"></i>
+                        <span class="badge btn-badge bg-success rounded-100 text-white border border-white position-absolute">?</span>
+                    </button>
+                    <button class="btn btn-info shadow py-2 d-md-none">
+                        <i class="fas fa-bars text-white" style="width: 18px;"></i>
+                    </button>
+                </div>
+            </nav>
+            <!-- Colored Bars -->
+            <div class="d-flex flex-row">
+                            <div class="col bg-warning bar-height"></div>
+                            <div class="col bg-success bar-height"></div>
+                            <div class="col bg-danger bar-height"></div>
+                            <div class="col bg-info bar-height"></div>
+                            <div class="col bg-primary bar-height"></div>
+                            <div class="col bg-cozy bar-height"></div>
+                            <div class="col bg-warning bar-height d-none d-md-block"></div>
+                            <div class="col bg-success bar-height d-none d-md-block"></div>
+                            <div class="col bg-danger bar-height d-none d-md-block"></div>
+                            <div class="col bg-info bar-height d-none d-md-block"></div>
+                            <div class="col bg-primary bar-height d-none d-md-block"></div>
+                            <div class="col bg-cozy bar-height d-none d-md-block"></div>
+            </div>
+            <!-- Dropdown -->
+            <div class="d-md-none d-block mx-3 d-flex flex-column">
+                <a href="#" class="d-flex flex-row-reverse text-decoration-none border-bottom p-3">
+                    <i class="d-flex fa fa-home text-white shadow bg-info rounded-100 nav-icon ml-2 align-items-center justify-content-center"></i>
+                    <span class="text-info">Home </span>
+                </a>            
+                <a href="#" class="d-flex flex-row-reverse text-decoration-none border-bottom p-3">
+                    <i class="d-flex fa fa-store text-white shadow bg-cozy rounded-100 nav-icon ml-2 align-items-center justify-content-center"></i>
+                    <span class="text-cozy">Store </span>
+                </a>            
+                <a href="#" class="d-flex flex-row-reverse text-decoration-none border-bottom p-3">
+                    <i class="d-flex fa fa-user-graduate text-white shadow bg-success rounded-100 nav-icon ml-2 align-items-center justify-content-center"></i>
+                    <span class="text-success">Courses</span>
+                </a>            
+                <a href="#" class="d-flex flex-row-reverse text-decoration-none border-bottom p-3">
+                    <i class="d-flex fa fa-blog text-white shadow bg-warning rounded-100 nav-icon ml-2 align-items-center justify-content-center"></i>
+                    <span class="text-warning">Home </span>
+                </a>            
+            </div>
+        </header>
+        <!-- Silder -->
+        <section id="slider" class="d-flex flex-row align-items-center justify-content-center slider-image-1 slider slider-image slider-fade">
+            <div class="d-flex flex-column text-white text-center">
+                <h1 class="my-0">School Website</h1>
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+            </div>
+        </section>
+        <!-- Features -->
+        <section id="features">
+            <!-- Features Heading-->
+            <div class="d-flex flex-row justify-content-center align-items-center mt-5 mb-4">
+                <div class="crayon" style="--crayon-color:#b5d56a; --crayon-paper-color:#e4f0cc; --crayon-line-color:#b5d56a;"></div>
+                <div class="text-cozy heading-font display-7 mb-0 mx-3">Our Features</div>
+                <div class="crayon" style="--crayon-color:#b5d56a; --crayon-paper-color:#e4f0cc; --crayon-line-color:#b5d56a;"></div>
+            </div>
+            <!-- Feature List -->
+            <div id="features-list" class="d-flex flex-column justify-content-center mx-auto">
+                <div class="d-flex flex-column px-3">
+                    <!-- Feature -->
+                    <div class="d-flex flex-row mb-5">
+                        <!-- Features Icon -->
+                        <div class="mr-3">
+                            <div class="d-flex flex-column justify-content-center align-items-center bg-cozy features-circle">
+                                <i class="d-flex fa fa-graduation-cap text-white border-white border-2 features-icon bg-cozy rounded-circle align-items-center justify-content-center"></i>
+                            </div>
+                        </div>
+                        <!-- Feaures Text -->
+                        <div class="d-flex flex-column">
+                            <h1 class="text-cozy heading-font display-8">Experienced Teachers </h1>
+                            <p class="class">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati pariatur exercitationem cum?</p>
+                        </div>
+                    </div>
+                    <!-- Feature -->
+                    <div class="d-flex flex-row mb-5">
+                        <!-- Features Icon -->
+                        <div class="mr-3">
+                            <div class="d-flex flex-column justify-content-center align-items-center bg-info features-circle">
+                                <i class="d-flex fa fa-graduation-cap text-white border-white border-2 features-icon bg-info rounded-circle align-items-center justify-content-center"></i>
+                            </div>
+                        </div>
+                        <!-- Feaures Text -->
+                        <div class="d-flex flex-column">
+                            <h1 class="text-info heading-font display-8">Experienced Teachers </h1>
+                            <p class="class">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati pariatur exercitationem cum?</p>
+                        </div>
+                    </div>
+                    <!-- Feature -->
+                    <div class="d-flex flex-row mb-5">
+                        <!-- Features Icon -->
+                        <div class="mr-3">
+                            <div class="d-flex flex-column justify-content-center align-items-center bg-warning features-circle">
+                                <i class="d-flex fa fa-graduation-cap text-white border-white border-2 features-icon bg-warning rounded-circle align-items-center justify-content-center"></i>
+                            </div>
+                        </div>
+                        <!-- Feaures Text -->
+                        <div class="d-flex flex-column">
+                            <h1 class="text-warning heading-font display-8">Experienced Teachers </h1>
+                            <p class="class">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati pariatur exercitationem cum?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column px-3">
+                    <!-- Feature -->
+                    <div class="d-flex flex-row mb-5">
+                        <!-- Features Icon -->
+                        <div class="mr-3">
+                            <div class="d-flex flex-column justify-content-center align-items-center bg-secondary features-circle">
+                                <i class="d-flex fa fa-graduation-cap text-white border-white border-2 features-icon bg-secondary rounded-circle align-items-center justify-content-center"></i>
+                            </div>
+                        </div>
+                        <!-- Feaures Text -->
+                        <div class="d-flex flex-column">
+                            <h1 class="text-secondary heading-font display-8">Experienced Teachers </h1>
+                            <p class="class">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati pariatur exercitationem cum?</p>
+                        </div>
+                    </div>
+                    <!-- Feature -->
+                    <div class="d-flex flex-row mb-5">
+                        <!-- Features Icon -->
+                        <div class="mr-3">
+                            <div class="d-flex flex-column justify-content-center align-items-center bg-success features-circle">
+                                <i class="d-flex fa fa-graduation-cap text-white border-white border-2 features-icon bg-success rounded-circle align-items-center justify-content-center"></i>
+                            </div>
+                        </div>
+                        <!-- Feaures Text -->
+                        <div class="d-flex flex-column">
+                            <h1 class="text-success heading-font display-8">Experienced Teachers </h1>
+                            <p class="class">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati pariatur exercitationem cum?</p>
+                        </div>
+                    </div>
+                    <!-- Feature -->
+                    <div class="d-flex flex-row mb-5">
+                        <!-- Features Icon -->
+                        <div class="mr-3">
+                            <div class="d-flex flex-column justify-content-center align-items-center bg-danger features-circle">
+                                <i class="d-flex fa fa-graduation-cap text-white border-white border-2 features-icon bg-danger rounded-circle align-items-center justify-content-center"></i>
+                            </div>
+                        </div>
+                        <!-- Feaures Text -->
+                        <div class="d-flex flex-column">
+                            <h1 class="text-danger heading-font display-8">Experienced Teachers </h1>
+                            <p class="class">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati pariatur exercitationem cum?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contacts -->
+        <section id="contact" class="bg-primary p-5">
+            <div class="d-flex flex-column justify-content-center align-items-center text-center text-white">
+                <div class="display-6 heading-font mb-3">Need more information?</div>
+                <div class="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing.</div>
+                <button class="btn btn-danger text-white text-uppercase rounded-0 p-3">
+                    <i class="fas fa-phone mr-2"></i>
+                    Contact
+                </button>
+            </div>
+        </section>
+        <!-- Image Gallery -->
+        <section id="gallery" class="px-2">
+            <!-- Gallery Heading -->
+            <div class="d-flex flex-row justify-content-center align-items-center mt-5 mb-4">
+                <div class="crayon" style="--crayon-color:#ea7066; --crayon-paper-color:#e4f0cc; --crayon-line-color:#ea7066;"></div>
+                <div class="text-warning heading-font display-7 mb-0 mx-3">Image Gallery</div>
+                <div class="crayon" style="--crayon-color:#ea7066; --crayon-paper-color:#e4f0cc; --crayon-line-color:#ea7066;"></div>
+            </div>
+            <!-- Images -->
+            <div id="images" class="d-flex flex-row flex-wrap justify-content-center">
+                <img src="/SchoolWeb/images/gallery/gallery-img1.jpg" alt="school_children" class="rounded w-100 m-2">
+                <img src="/SchoolWeb/images/gallery/gallery-img2.jpg" alt="school_children" class="rounded w-100 m-2">
+                <img src="/SchoolWeb/images/gallery/gallery-img3.jpg" alt="school_children" class="rounded w-100 m-2">
+                <img src="/SchoolWeb/images/gallery/gallery-img4.jpg" alt="school_children" class="rounded w-100 m-2">
+                <img src="/SchoolWeb/images/gallery/gallery-img5.jpg" alt="school_children" class="rounded w-100 m-2">
+                <img src="/SchoolWeb/images/gallery/gallery-img6.jpg" alt="school_children" class="rounded w-100 m-2">
+                <img src="/SchoolWeb/images/gallery/gallery-img7.jpg" alt="school_children" class="rounded w-100 m-2">
+                <img src="/SchoolWeb/images/gallery/gallery-img8.jpg" alt="school_children" class="rounded w-100 m-2">
+            </div>
+        </section>
+        <!-- Teachers -->
+        <section id="teachers" class="bg-cozy pb-5">
+            <!-- Teachers Heading -->
+            <div class="d-flex flex-row justify-content-center align-items-center
+             pt-5 mb-5">
+                <div class="crayon" style="--crayon-color:#b5d56a; --crayon-paper-color:#e4f0cc; --crayon-line-color:#b5d56a;"></div>
+                <div class="text-white heading-font display-7 mb-0 mx-3">Our Teachers</div>
+                <div class="crayon" style="--crayon-color:#b5d56a; --crayon-paper-color:#e4f0cc; --crayon-line-color:#b5d56a;"></div>
+            </div>
+            <!-- Teacher Avatar -->
+            <div class="teacher-image-container d-flex flex-column align-items-center justify-content-center heading-font text-white text-center display-9">
+                <div class="avatar d-flex flex-column m-3">
+                    <img src="/SchoolWeb/images/avatars/avatar-1.jpg" alt="Picture of a teacher" class=" rounded-circle avatar-size mb-1">
+                    <div>Mrs. Smith</div>
+                </div>
+                <div class="avatar d-flex flex-column m-3">
+                    <img src="/SchoolWeb/images/avatars/avatar-2.jpg" alt="Picture of a teacher" class=" rounded-circle avatar-size mb-1">
+                    <div>Mrs. Ava</div>
+                </div>
+                <div class="avatar d-flex flex-column m-3">
+                    <img src="/SchoolWeb/images/avatars/avatar-3.jpg" alt="Picture of a teacher" class=" rounded-circle avatar-size mb-1">
+                    <div class="teacher">Mr. Smythe</div>
+                </div>
+                <div class="avatar d-flex flex-column m-3">
+                    <img src="/SchoolWeb/images/avatars/avatar-4.jpg" alt="Picture of a teacher" class=" rounded-circle avatar-size mb-1">
+                    <div class="teacher">Ms. Sanchez</div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Classes -->
+        <section id="our-classes" class="px-2">
+            <!-- Classes Heading -->
+            <div class="d-flex flex-row justify-content-center align-items-center
+             pt-5 mb-5">
+                <div class="crayon" style="--crayon-color:#a597e7; --crayon-paper-color:#e4f0cc; --crayon-line-color:#a597e7;"></div>
+                <div class="text-danger heading-font display-7 mb-0 mx-3">Our Classes</div>
+                <div class="crayon" style="--crayon-color:#a597e7; --crayon-paper-color:#e4f0cc; --crayon-line-color:#a597e7;"></div>
+            </div>
+            <!-- Classes Container -->
+            <div class="class-container d-flex flex-column flex-wrap justify-content-center flex-sm-row text-white">
+            </div>
+        </section>
+        <!-- Facts -->
+        <section id="fun-facts" class="text-white text-center">
+            <!-- Facts Header -->
+            <div class="d-flex flex-row justify-content-center align-items-center
+             pt-5 mb-5">
+                <div class="crayon" style="--crayon-color:#ea77ad; --crayon-paper-color:#e4f0cc; --crayon-line-color:#ea77ad;"></div>
+                <div class="text-white heading-font display-7 mb-0 mx-3">Fun Facts</div>
+                <div class="crayon" style="--crayon-color:#ea77ad; --crayon-paper-color:#e4f0cc; --crayon-line-color:#ea77ad;"></div>
+            </div>
+            <div class="text-center display-9 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+            <!-- Facts Circle Wrapper -->
+            <div class="facts-wrapper d-flex flex-column justify-content-center align-items-center display-6">
+                <!-- Fact 1 -->
+                <div class="d-flex flex-column justify-content-center align-items-center mx-3 mb-5">
+                    <div class="percent-circle d-flex flex-row justify-content-center align-items-center">
+                        <div>100%</div>
+                    </div>
+                    <div class="text-uppercase rounded px-3 py-2 mt-3 bg-success display-9">Happy Clients</div>
+                </div>
+                <!-- Fact 2 -->
+                <div class="d-flex flex-column justify-content-center align-items-center mx-3 mb-5">
+                    <div class="percent-circle d-flex flex-row justify-content-center align-items-center">
+                        <div>175</div>
+                    </div>
+                    <div class="text-uppercase rounded px-3 py-2 mt-3 bg-success display-9">Schools</div>
+                </div>
+                <!-- Fact 3 -->
+                <div class="d-flex flex-column justify-content-center align-items-center mx-3 mb-5">
+                    <div class="percent-circle d-flex flex-row justify-content-center align-items-center">
+                        <div>698</div>
+                    </div>
+                    <div class="text-uppercase rounded px-3 py-2 mt-3 bg-success display-9">Girls</div>
+                </div>
+                <!-- Fact 4 -->
+                <div class="d-flex flex-column justify-content-center align-items-center mx-3 mb-5">
+                    <div class="percent-circle d-flex flex-row justify-content-center align-items-center">
+                        <div>789</div>
+                    </div>
+                    <div class="text-uppercase rounded px-3 py-2 mt-3 bg-success display-9">Boys</div>
+                </div>
+               
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer id="footer" class="">
+            <!-- Colored Bars -->
+            <div class="d-flex flex-row">
+                <div class="col bg-warning bar-height"></div>
+                <div class="col bg-success bar-height"></div>
+                <div class="col bg-danger bar-height"></div>
+                <div class="col bg-info bar-height"></div>
+                <div class="col bg-primary bar-height"></div>
+                <div class="col bg-cozy bar-height"></div>
+                <div class="col bg-warning bar-height d-none d-md-block"></div>
+                <div class="col bg-success bar-height d-none d-md-block"></div>
+                <div class="col bg-danger bar-height d-none d-md-block"></div>
+                <div class="col bg-info bar-height d-none d-md-block"></div>
+                <div class="col bg-primary bar-height d-none d-md-block"></div>
+                <div class="col bg-cozy bar-height d-none d-md-block"></div>
+            </div>
+            <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center my-5 mx-3">
+                <!-- Information -->
+                <div class="d-flex flex-column p-3">
+                    <img src="/SchoolWeb/images/logo-school.png" alt="School logo" class="mb-3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate rem suscipit eaque pariatur necessitatibus velit.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                    <div class="my-3"><i class="fas fa-map-marker-alt text-success display-8 mr-2"></i>1st Street, 12345, Stockholm, Sweden</div>
+                    <div class="mb-3"><i class="fas fa-at text-warning display-8 mr-2"></i>info@kidz-school.com</div>
+                    <div><i class="fas fa-phone-alt text-cozy display-8 mr-2"></i>+00  700 00 11 33</div>
+                </div>
+                <!-- Contact Form -->
+                <form id="form" class="d-flex flex-column mt-3 p-3" action="send">
+                    <fieldset>
+                        <div class="display-7 heading-text text-primary mb-2">Contact</div>
+                        <div class="position-relative mb-3">
+                            <i class="fas fa-user text-success position-absolute"></i>
+                            <input 
+                                class="form-control border-success" 
+                                type="text"
+                                name="CustomerId"
+                                required
+                                placeholder="CustomerId (använd denna)" 
+                                autocapitalize="on">
+                        </div>
+                        <div class="position-relative mb-3">
+                            <i class="fas fa-at text-warning position-absolute"></i>
+                            <input
+                                type="email"
+                                class="form-control border-warning" 
+                                placeholder="Email (ej kopplad)">
+                        </div>
+                        <div class="position-relative mb-3">
+                            <i class="fas fa-comments text-info position-absolute"></i>
+                            <textarea 
+                                class="form-control border-info" 
+                                name="message" 
+                                required cols="30" 
+                                rows="5" 
+                                placeholder="Write your message here..."
+                            ></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary p-3">Send Message</button>
+                    </fieldset>
+                </form>
+            </div>
+            <!-- Colored Bars -->
+            <div class="d-flex flex-row">
+                <div class="col bg-warning bar-height"></div>
+                <div class="col bg-success bar-height"></div>
+                <div class="col bg-danger bar-height"></div>
+                <div class="col bg-info bar-height"></div>
+                <div class="col bg-primary bar-height"></div>
+                <div class="col bg-cozy bar-height"></div>
+                <div class="col bg-warning bar-height d-none d-md-block"></div>
+                <div class="col bg-success bar-height d-none d-md-block"></div>
+                <div class="col bg-danger bar-height d-none d-md-block"></div>
+                <div class="col bg-info bar-height d-none d-md-block"></div>
+                <div class="col bg-primary bar-height d-none d-md-block"></div>
+                <div class="col bg-cozy bar-height d-none d-md-block"></div>
+            </div>
+        </footer> 
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

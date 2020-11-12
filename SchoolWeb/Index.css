@@ -1,0 +1,232 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+#wrapper {max-width: 1920px !important; margin: auto;}
+
+/* Fonts */
+.heading-font {font-family: 'dosis','sans-serif';}
+.display-6 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.display-7 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.display-8 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.display-9 {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+/* Colors */
+.bg-cozy {background-color: #ea77ad !important;} /* Not a Bootstrap selector */
+.text-cozy {color: #ea77ad !important;} /* Not a Bootstrap selector */
+.btn-cozy {background-color: #ea77ad !important;} /* Not a Bootstrap selector */
+.btn-cozy {border-color: #ea77ad !important;} /* Not a Bootstrap selector */
+
+/* Navigation */
+nav img {max-width: 130px;}
+.btn-badge {
+    padding: .35em .6em;
+    top: -10px !important;
+    right: -10px !important;
+}
+.nav-icon {width: 35px; height: 35px;}
+.bar-height {height: 3px;}
+
+/* Badge */
+.badge {
+    display: inline-block;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+}
+
+/* Button */
+.btn {
+    border-radius: 0.25;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/* Carousel / Slider */
+.slider {height: 300px;}
+.slider-image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider-fade {
+    animation: fading 5s infinite;
+} @keyframes fading {
+    0%{opacity: 0}
+    50%{opacity: 1}
+    100%{opacity: 0}
+}
+/* Carousel / Slider Images */
+.slider-image-1 {background-image: url('../SchoolWeb/images/Slider/img-1.jpg');}
+.slider-image-2 {background-image: url('../SchoolWeb/images/Slider/img-2.jpg');}
+.slider-image-3 {background-image: url('../SchoolWeb/images/Slider/img-3.jpg');}
+.slider-image-4 {background-image: url('../SchoolWeb/images/Slider/img-4.jpg');}
+
+/* Heading / Crayon */
+.crayon {
+    --crayon-height: 0.85rem;
+    --crayon-width: 4rem;
+    --crayon-color: #237449;
+    --crayon-paper-color: rgba(41,237,133,.6);
+    --crayon-line-color: #237449;
+    --crayon-shadow-color: rgba(0,0,0,.3);
+
+    width: var(--crayon-width);
+    height: var(--crayon-height);
+    background: var(--crayon-color);
+    box-shadow: 2px 2px 3px, var(--crayon-shadow-color);
+
+    background-image: 
+        linear-gradient(to bottom, transparent 62%, var(--crayon-shadow-color) 100%),
+        radial-gradient(ellipse at top, var(--crayon-line-color) 24%, transparent 24%),
+        linear-gradient(to right, transparent 14%, var(--crayon-line-color) 14%, var(--crayon-line-color) 17%, transparent 17%),
+        linear-gradient(to right, transparent 20%, var(--crayon-line-color) 20%, var(--crayon-line-color) 23%, transparent 23%),
+        linear-gradient(to right, transparent 78%, var(--crayon-line-color) 78%, var(--crayon-line-color) 81%, transparent 81%),
+        linear-gradient(to right, transparent 84%, var(--crayon-line-color) 84%, var(--crayon-line-color) 87%, transparent 87%),
+        linear-gradient(to right, transparent 8%, var(--crayon-paper-color) 8%, var(--crayon-paper-color) 92%, transparent 92%);
+}
+
+/* Features */
+.features-circle {
+    width: 76px;
+    height: 76px;
+    padding: 0.375rem;
+    box-shadow: .25rem .25rem 0 rgba(0,0,0,.1);
+    border-radius: 50%;
+}
+.features-icon {
+    border-style: solid;
+    border-width: 2px;
+    height: 62px;
+    width: 62px;
+    font-size: 1.38rem;
+    line-height: 62px;
+}
+
+/* Image Gallery */
+#images img {width: 96% !important;}
+
+/* Teachers */
+.avatar-size {width: 150px; height: 150px;}
+
+/* Classes */
+.classes {
+    min-height: 400px;
+}
+#card-img {
+    object-fit: cover;
+    object-position: 50% 50%;
+    max-height: 350px;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+.card-text {
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+#our-classes > div:nth-child(2) {max-width: 1240px; margin: auto;}
+.date {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: .5rem;
+    box-shadow: .15rem .15rem 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Fact */
+#fun-facts {
+    background-image: url(./images/fun-facts/fun-facts-bg-img.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.percent-circle {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+/* Footer */
+footer img {width: 200px;}
+footer form i {right: 20px; top: 10px;}
+footer form, footer > div:nth-child(2) > div {max-width: 550px;}
+footer form {width: -webkit-fill-available;}
+
+/* Media Queries */
+@media (min-width: 576px) {
+    #features-list {width: 80% !important}
+    #card-img {
+        max-height: unset;
+        border-top-left-radius: .5rem;
+        border-top-right-radius: 0rem;
+        border-bottom-left-radius: .5rem;
+        max-width: 360px;
+    }
+    .card-text {
+        max-width: 250px;
+        border-top-right-radius: .5rem;
+        border-bottom-right-radius: .5rem;
+        border-bottom-left-radius: 0rem;
+    }
+}
+
+@media (min-width: 768px) {
+    /* Display */
+    .d-md-flex {display: flex !important;}
+    .d-md-none {display: none !important;}
+    #images img {width: 47% !important;}
+    .teacher-image-container {flex-direction: row !important;}
+    .facts-wrapper {
+        max-width: 1024px;
+        flex-direction: row !important;
+        justify-content: space-around !important;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    footer > div:nth-child(2) > div {min-width: 550px;}
+}
+
+@media (min-width: 1024px) {
+    #features-list {width: 95% !important}
+    #features-list > div {flex-direction: row !important;}
+    #features-list > div > :nth-child(1),
+    #features-list > div > :nth-child(2) {margin-right: 1.75rem !important;}
+    #images img {width: 23% !important;}
+}
+
+@media (min-width: 1200px) {
+    .slider {height: 550px;}
+}
+
+@media (min-width: 1440px) {
+    #features-list {width: 1440px !important}
+    #features-list > div > :nth-child(1),
+    #features-list > div > :nth-child(2) {margin-right: 3rem !important;}
+}
